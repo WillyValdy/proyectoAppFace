@@ -35,6 +35,7 @@ export class AppComponent implements OnInit {
     nombre: ['', [Validators.required]],
     imgFile: ['']
   });
+  title: any;
 
   constructor(
     private renderer: Renderer2,
